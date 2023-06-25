@@ -1,5 +1,4 @@
 import React from "react";
-import profile from './profile.jpg'
 import './Navigation.css';
 
 function Home(){
@@ -13,9 +12,7 @@ function Home(){
                 
                
                 </div>
-                <div class="image">
-                <img class="profile" src={profile} alt="profile" />
-                </div>
+                
             </section>
         </div>
     );
