@@ -10,7 +10,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -21,9 +21,9 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app@^4.0.0"
+      "react-app"
     ]
-  },
+  },  
   "browserslist": {
     "production": [
       ">0.2%",
@@ -35,5 +35,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
   }
+  
 }
